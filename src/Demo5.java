@@ -24,3 +24,5 @@ public class Demo5 {
 
     }
 }
+//we have stop() method which is not used in java because when we use stop method in java it will terminate the thread directly without executing it.
+//hume kabhi bhi Stop use nahi karna chaiye

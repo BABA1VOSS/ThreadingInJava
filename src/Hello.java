@@ -1,5 +1,11 @@
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("hello");
+
+        World world  = new World();
+            world.start();
+        for (; ;) {
+//            System.out.println("hello" );
+            System.out.println(Thread.currentThread().getName());
+        }
     }
 }

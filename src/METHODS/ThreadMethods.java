@@ -1,3 +1,5 @@
+package METHODS;
+
 public class ThreadMethods  extends Thread  {
     @Override
     public void run() {

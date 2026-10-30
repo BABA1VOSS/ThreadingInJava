@@ -1,9 +1,9 @@
-import java.util.Set;
+package METHODS;
 
-//SetPriority
+//METHODS.SetPriority
 public class SetPriority extends Thread {
     //jab hum extends kar rahe hai Thead ko to hum iska Thread ka ek alag se naam bhi de sakte hai ..
-    //iska Constructor bana sakte hai file name ka bhi or neeche jo variable name pass kia uska bhi jaise file name - SetPriority aagya or wese mene use kia hai MyThread
+    //iska Constructor bana sakte hai file name ka bhi or neeche jo variable name pass kia uska bhi jaise file name - METHODS.SetPriority aagya or wese mene use kia hai MyThread
     //File name ka hi use karna better rahega agar dusra use karte hai to void return type dalna padega fir usko...
 
 

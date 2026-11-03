@@ -67,3 +67,10 @@ import java.util.concurrent.locks.ReentrantLock;
         //we see that the thread is running in arbritary manner which means threads execute in an unpredictable order, depending on the thread scheduler.
 
     }
+    /* synchronization ke disadvantages
+    true  faireness
+    bocking
+    interruptibility
+    Read/write Locking
+
+     */

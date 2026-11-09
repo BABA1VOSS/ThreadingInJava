@@ -56,10 +56,19 @@ public class ReadWriteCounter {
             }
         };
         Thread writerThread = new Thread(writeTask);
-        Thread readerThread = new Thread(readTask);
-
-
+        Thread readerThread1 = new Thread(readTask);
         Thread readerThread2 = new Thread(readTask);
+
+        writerThread.start();
+        readerThread1.start();
+        readerThread2.start();
+
+        writerThread.join();
+        readerThread1.join();
+        readerThread2.join();
+
+
+        System.out.println("Final count: " + counter.getCount());
 
 
 

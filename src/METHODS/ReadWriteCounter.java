@@ -57,6 +57,8 @@ public class ReadWriteCounter {
         };
         Thread writerThread = new Thread(writeTask);
         Thread readerThread = new Thread(readTask);
+
+
         Thread readerThread2 = new Thread(readTask);
 
 

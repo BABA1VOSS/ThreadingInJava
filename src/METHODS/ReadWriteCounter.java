@@ -70,7 +70,7 @@ public class ReadWriteCounter {
 
         System.out.println("Final count: " + counter.getCount());
 
-
+    //The main thing in this code is that in this multiple Threads can acquire this lock.
 
     }
 }

@@ -89,8 +89,5 @@ public class MasteringThreadCommunication {
 
         ProducerThread.start();
         ConsumerThread.start();
-
-
-
     }
 }

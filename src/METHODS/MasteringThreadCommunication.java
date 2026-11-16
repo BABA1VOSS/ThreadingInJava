@@ -5,7 +5,7 @@ package METHODS;
 //notify
 //notifyAll
 //------these methods only be called as a synchronized method
-//what is the problem of Thread with out communication?
+//what is the problem of Thread without communication?
 //Answer - > Without proper thread communication , checking of Thread conditions countinously  by which it wastes the CPU ( Engagement of CPU for a work)
 
 

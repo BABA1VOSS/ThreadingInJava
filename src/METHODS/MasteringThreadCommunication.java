@@ -78,11 +78,9 @@ class Consumer implements Runnable {
     }
 
 }
-
-
-
 public class MasteringThreadCommunication {
     public static void main(String[] args) {
+
         SharedResource resource = new SharedResource();
         Thread ProducerThread = new Thread(new Producer(resource));
         Thread ConsumerThread = new Thread(new Consumer(resource));
@@ -91,4 +89,5 @@ public class MasteringThreadCommunication {
         ConsumerThread.start();
     }
 }
+
 

@@ -8,6 +8,7 @@ public class BankAccount {
     private int balance = 100;
 
 
+
     private final Lock lock = new ReentrantLock();//RenterantLock ek class hai jo ki implement kar rahi hai Lock interface ko !   or to or yeh synchronized keyword ko access karta hai
     //isme final dalne se yeh ho gya hai ki ab koi isko change nahi kar sakta hai !
 
